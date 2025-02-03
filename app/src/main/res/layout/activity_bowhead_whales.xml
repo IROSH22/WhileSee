@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bowhead_whales"
+    android:background="@drawable/seco_2">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="345dp"
+        android:layout_height="70dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Bowhead whales are recovering despite the warming arctic"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="351dp"
+        android:layout_height="449dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Bowhead whale numbers have rebounded and are nearing pre-commercial whaling numbers in US waters. The recovery has been credited to the sustainable management and stewardship of the Alaska Eskimo Whaling Commission (AEWC) who have fought against offshore oil drilling and other harmful activities. A major victory for animal and ocean conservation!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.815" />
+
+    <Button
+        android:id="@+id/button35"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="139dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".source_of_food"
+    android:background="@drawable/rofood">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="330dp"
+        android:layout_height="49dp"
+        android:fontFamily="serif"
+        android:text="3. It is an important source of food."
+        android:textAlignment="center"
+        android:textColor="#00FF00"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="289dp"
+        android:layout_height="432dp"
+        android:fontFamily="sans-serif-black"
+        android:text="The ocean is the number one source of protein for more than a billion people. Fish accounts for about 15.7% of the animal protein consumed globally (2).  Although, not everything is fish and seafood.
+Humans have traditionally used algae and sea plants for cooking sushi, seaweed pancit in Philippines, sea grapes, dulse, etc. There is a growing tendency of using algae and sea plants on our daily plates and start-ups like, “This is seaweed… ” (3) are making sure to introduce it in our supermarkets.
+Considering the world population growing by 1.5 million people every week, we are relying on the ocean more and more for survival, and we need from an alternative and nutritious food sources. For those who are not into eating insects, edible seaweed might be a good alternative."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <Button
+        android:id="@+id/button26"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="185dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+</androidx.constraintlayout.widget.ConstraintLayout>

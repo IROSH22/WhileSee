@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jobs"
+    android:background="@drawable/jobs">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="339dp"
+        android:layout_height="59dp"
+        android:fontFamily="serif"
+        android:text="6. Many jobs are related to sea activities."
+        android:textAlignment="center"
+        android:textColor="#00FF00"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="287dp"
+        android:layout_height="489dp"
+        android:fontFamily="sans-serif-black"
+        android:text="The FAO estimates (6) on the most recent official statistics indicate that 59.6 million people in the world were engaged in fisheries and aquaculture in 2016.
+Only at the European Union level, the blue sector represents 3.362.510 of jobs(7), in 9 subsectors: coastal and maritime tourism, Aquaculture, Renewable Energy, Mineral Resources, Biotechnology, Fisheries, Shipbuilding and Ship repair, Offshore Oil and Gas, and Transport. In fact, 90% of the world trade is made by sea. In the U.S. close to three million jobs(8) are directly dependent on the resources of the oceans and Great Lakes."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <Button
+        android:id="@+id/button29"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="175dp"
+        android:layout_height="56dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.995" />
+</androidx.constraintlayout.widget.ConstraintLayout>

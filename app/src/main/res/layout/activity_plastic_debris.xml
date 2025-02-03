@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".plastic_debris"
+    android:background="@drawable/pd">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="311dp"
+        android:layout_height="54dp"
+        android:fontFamily="serif"
+        android:text="5. Plastic debris"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="369dp"
+        android:layout_height="428dp"
+        android:fontFamily="sans-serif-black"
+        android:text="An estimated eight million metric tonnes of plastic end up in our oceans each year. Our discarded bottles, plastic bags, and packaging are choking and entangling animals, or breaking up into tiny pieces that can be swallowed, releasing toxic chemicals along the way. Over 90% of seabirds are now thought to have plastic pieces in their stomachs.
+This plastic comes from a number of sources, including littering and improper disposal of waste. In addition to getting tangled and choking on plastic debris—as is often seen with sea turtles— when plastic breaks down into microplastics, it is then consumed by small fish and species lower on the food chain. When these species are then eaten by predators higher up the food chain, these toxic microplastics are passed up the chain and amplified, threatening the entire marine ecosystem.
+There are many things we can do to help reduce the amount of plastic waste in our oceans. These include small-scale changes in our day-to-day lives, such as not using plastic bags or straws, as well as larger-scale initiatives with which we can engage. For example, International Cleanup Month is an annual event focused on removing waste from our oceans and coastlines. Find out more about this initiative and how you can get involved."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544" />
+
+    <Button
+        android:id="@+id/button15"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="148dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+</androidx.constraintlayout.widget.ConstraintLayout>

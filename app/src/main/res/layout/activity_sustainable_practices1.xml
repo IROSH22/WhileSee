@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sustainable_practices_1"
+    android:background="@drawable/sus_1">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="355dp"
+        android:layout_height="63dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Sustainable Fishing"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="361dp"
+        android:layout_height="538dp"
+        android:fontFamily="sans-serif-black"
+        android:text="What it means:
+Sustainable fishing is the practice of harvesting fish and other seafood in ways that ensure the long-term health of fish populations and the marine ecosystem. It avoids overfishing, which happens when fish are caught faster than they can reproduce, and reduces bycatch, which refers to the unintended capture of non-target species like turtles, dolphins, or sharks.
+
+Why it matters:
+
+Prevents the depletion of fish stocks.
+Maintains balance in marine food chains.
+Protects habitats like coral reefs from destructive practices such as bottom trawling.
+Examples:
+
+Choosing fish from sustainable sources (certified by organizations like MSC).
+Implementing quotas and size limits to protect juvenile fish.
+"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.766" />
+
+    <Button
+        android:id="@+id/button42"
+        style="@style/Widget.Material3.Button.OutlinedButton.Icon"
+        android:layout_width="122dp"
+        android:layout_height="50dp"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994" />
+</androidx.constraintlayout.widget.ConstraintLayout>

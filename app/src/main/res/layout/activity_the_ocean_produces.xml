@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".the_ocean_produces"
+    android:background="@drawable/top">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="341dp"
+        android:layout_height="48dp"
+        android:fontFamily="serif"
+        android:text="1. The Ocean produces more oxygen than the Amazones."
+        android:textAlignment="center"
+        android:textColor="#00FF00"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="294dp"
+        android:layout_height="504dp"
+        android:fontFamily="sans-serif-black"
+        android:text="It is often thought that rainforests are the primary source of oxygen on the planet, but the truth is that rainforests are only responsible for 28% of the oxygen on earth while oceans are responsible for the 70%. It does not matter how far we live from the sea, from every ten breaths you take seven come from the ocean.
+Have you ever seen a tree in the middle of the sea? No, right? That is because the Ocean does not need them, the phytoplankton has got it covered. Phytoplankton is a microscopic plant, a component of the plankton, which spends its life being carried by oceanic currents.
+Basically, these tiny little organisms act in the same way as tree leaves do on land. Phytoplankton absorbs carbon dioxide and releases oxygen. We do not see them, so we tend to forget about them if we even know about them in the first place. They are one of the tiniest beings on the planet, but one of the most important to have around, keeping us alive."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="157dp"
+        android:layout_height="53dp"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+</androidx.constraintlayout.widget.ConstraintLayout>

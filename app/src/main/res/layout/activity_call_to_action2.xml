@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".call_to_action2"
+    android:background="@drawable/call_sub">
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="209dp"
+        android:layout_height="71dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Ocean Cleanup Technologies"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="368dp"
+        android:layout_height="366dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="What it Means:
+Innovative technologies are used to clean debris already in the ocean. These include large-scale systems designed to collect floating garbage from areas like the Great Pacific Garbage Patch and automated devices that clean coastal waters.
+
+Why It Matters:
+
+Helps address pollution that has already entered the ocean.
+Reduces the long-term impact of marine debris on ecosystems.
+Promotes sustainable solutions through engineering and innovation.
+Example Technologies:
+
+The Ocean Cleanup project, which uses barriers and nets to remove floating plastics.
+Devices like Seabins, which filter trash and oil from marinas and harbors"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="102dp"
+        android:layout_height="49dp"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+</androidx.constraintlayout.widget.ConstraintLayout>

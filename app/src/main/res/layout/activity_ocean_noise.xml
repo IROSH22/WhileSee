@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ocean_noise"
+    android:background="@drawable/on">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="271dp"
+        android:layout_height="49dp"
+        android:fontFamily="serif"
+        android:text="1. Ocean noise"
+        android:textColor="#FF0101"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.621"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="384dp"
+        android:layout_height="494dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Often overlooked because it can’t be seen, ocean noise is a significant threat to a number of marine species.
+         Animals like whales and dolphins that hunt and communicate using sound are severely impacted by excessive noise caused by shipping activity, military sonar, and seismic exploration by oil and gas industries. The confusion caused by this noise can disorient animals, preventing them from finding food, meeting a mate, and detecting predators—ultimately threatening their very survival.
+
+There are currently no international standards for ocean noise in effect, meaning it is difficult to regulate and reduce the noise in our waters. However, avenues are being explored to help reduce ocean noise.
+
+Shipping speeds and high noise levels are closely linked, so one promising solution is to reduce the speed at which commercial ships move through the water. IFAW has been working closely with shipping companies, ports, and the International Maritime Organization’s Marine Environment Protection Committee to try to reduce shipping speeds and ocean noise."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
+
+    <Button
+        android:id="@+id/button11"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="157dp"
+        android:layout_height="48dp"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+</androidx.constraintlayout.widget.ConstraintLayout>

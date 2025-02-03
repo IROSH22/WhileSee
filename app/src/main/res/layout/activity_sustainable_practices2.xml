@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sustainable_practices_2"
+    android:background="@drawable/sus_2">
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="362dp"
+        android:layout_height="58dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Reduce Plastic Waste"
+        android:textColor="#F2F2F2"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="367dp"
+        android:layout_height="534dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="What it means:
+This practice involves minimizing the use of plastics, particularly single-use items (e.g., straws, bags, bottles), and ensuring proper recycling and disposal to prevent plastic from entering the ocean. Plastics break down into microplastics, which are harmful to marine life and ecosystems.
+
+Why it matters:
+
+Plastic waste harms marine animals through ingestion or entanglement.
+It disrupts ecosystems and enters the food chain, affecting human health.
+Preventing plastic pollution improves the overall health of ocean waters.
+Examples:
+
+Using reusable bags, bottles, and containers.
+Participating in beach cleanups or advocating for bans on plastic straws and bags.
+"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <Button
+        android:id="@+id/button43"
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+</androidx.constraintlayout.widget.ConstraintLayout>

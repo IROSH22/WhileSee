@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Earth_climate"
+    android:background="@drawable/earth">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="331dp"
+        android:layout_height="60dp"
+        android:fontFamily="serif"
+        android:text="2. The Ocean regulates the Earth climate."
+        android:textAlignment="center"
+        android:textColor="#00FF00"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="292dp"
+        android:layout_height="395dp"
+        android:fontFamily="sans-serif-black"
+        android:text="In many ways, the sea regulates our climate. It soaks up the heat and transports warm water from the equator to the poles, and cold water from the poles to the tropics. Without these currents, the weather would be extreme in some regions, and fewer places would be habitable.
+
+It regulates rain and droughts. Holding 97% of the water of our planet, almost all rain that drops on land comes from the sea. The ocean absorbs CO2, to keep the carbon cycle, and accordingly temperatures on earth, in balance. It is like our global climate control system.
+"
+        android:textAlignment="center"
+        android:textColor="#FAFAFA"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <Button
+        android:id="@+id/button25"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="163dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991" />
+</androidx.constraintlayout.widget.ConstraintLayout>

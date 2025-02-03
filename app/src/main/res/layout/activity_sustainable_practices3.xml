@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sustainable_practices_3"
+    android:background="@drawable/sus_3">
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="322dp"
+        android:layout_height="65dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Marine Protected Areas (MPAs)"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="370dp"
+        android:layout_height="544dp"
+        android:fontFamily="sans-serif-black"
+        android:text="What it means:
+MPAs are specific regions of the ocean that are legally protected to conserve marine biodiversity and habitats. These areas restrict or regulate human activities like fishing, drilling, and tourism to allow ecosystems to recover and thrive.
+
+Why it matters:
+
+Protects endangered species and critical habitats like coral reefs and mangroves.
+Helps replenish fish populations in surrounding areas.
+Supports ecotourism and long-term economic benefits for coastal communities.
+Examples:
+
+The Great Barrier Reef Marine Park in Australia.
+Papahānaumokuākea Marine National Monument in Hawaii.
+Would you like me to go deeper into any of these, or cover another topic?"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684" />
+
+    <Button
+        android:id="@+id/button45"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="132dp"
+        android:layout_height="41dp"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

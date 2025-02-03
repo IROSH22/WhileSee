@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Entanglement_in_fishing"
+    android:background="@drawable/efg">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="331dp"
+        android:layout_height="76dp"
+        android:fontFamily="serif"
+        android:text="4. Entanglement in fishing gear"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="385dp"
+        android:layout_height="419dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Marine animals—from whales, dolphins, and seals to turtles and seabirds—often become caught and trapped in nets and lines used by commercial fisheries. This entanglement can inhibit marine animals from moving freely, preventing them from hunting, breathing, and eating normally. They can also cause severe injuries. In fact, there have been more than one recent instance of critically endangered North Atlantic right whales dying from entanglement injuries.
+IFAW has been conducting a multi-faceted campaign to solve the issue of entanglement. We have been working to build public awareness, push for regulatory change, and promote innovative solutions in the US and Canada to help protect the North Atlantic right whale.
+Additionally, we have been working to introduce a new type of sedative that slows entangled whales down so our veterinary experts can disentangle them from nets. Using drones, we can estimate the size of whales and provide the proper dosage, making this method of disentanglement safer and more effective for both the whales and the rescuers."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <Button
+        android:id="@+id/button13"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="141dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
+</androidx.constraintlayout.widget.ConstraintLayout>

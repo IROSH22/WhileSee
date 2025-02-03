@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".many_creatures"
+    android:background="@drawable/many_creatures">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="334dp"
+        android:layout_height="59dp"
+        android:fontFamily="serif"
+        android:text="4. Many creatures depend and live in the Ocean."
+        android:textAlignment="center"
+        android:textColor="#00FF00"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="299dp"
+        android:layout_height="531dp"
+        android:fontFamily="sans-serif-black"
+        android:text="The ocean is not just home to us ocean lovers, but it is home to the greatest abundance of life on our planet. When you sail across an ocean, you will see dolphins, whales or a turtle popping up to take a breath. That is just what we see on the surface; there is more life below the ocean’s surface than on land.
+Experts predict4 that there are more than 300.000 different species underwater, and is still not clear how many of them we know. All the creatures that live in the Ocean play an essential role in the trophic chain of the ecosystems. Due to climate change (5), the ocean has been warming and losing oxygen, and its pH has been decreasing.
+Many marine species have already been adjusting their geographic and depth ranges with changes in sea temperature. However, not all species may be able to move to avoid thermal stress, and global warming has already been correlated with mass mortalities in the Mediterranean. With more than 60% of the world’s population living on the coastline, we all depend on a healthy sea just as much as these beautiful creatures."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="172dp"
+        android:layout_height="49dp"
+        android:fontFamily="serif"
+        android:text="back"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+</androidx.constraintlayout.widget.ConstraintLayout>

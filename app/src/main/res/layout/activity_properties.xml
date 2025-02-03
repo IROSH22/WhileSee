@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".properties"
+    android:background="@drawable/properties">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="341dp"
+        android:layout_height="60dp"
+        android:fontFamily="serif"
+        android:text="7. The Ocean has therapeutic properties. "
+        android:textAlignment="center"
+        android:textColor="#00FF00"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="286dp"
+        android:layout_height="553dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Did you know that the anti-viral drugs Zovirax and Acyclovir were obtained from nucleosides isolated from Caribbean sponges? Or that Yondelis, developed from small soft-bodied marine animals, was the first drug of marine origin to fight cancer(9)? When we dip in the water, our inner dolphin gets released. It’s called the “mammalian diving reflex”(10).
+I learned this when I started freediving. When our face touches water, our heart rate immediately slows down, and blood moves from the extremities to the brain, heart and vital organs of our body. Seals and dolphins have this reflex, and so do we! It wakes us up and makes us feel vibrant and alive. The ocean is therapeutic. When we see, feel, hear, smell or taste water we are happy and at peace.
+Research has proven that the so-called blue spaces can directly reduce psychological stress and improve mood(11). Read Blue Mind to learn more about that. Despite all that, we still know more about Mars than we know about the ocean! A healthy ocean keeps us healthy on earth."
+        android:textAlignment="center"
+        android:textColor="#FDFBFB"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button30"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="173dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textColor="#261F1F"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+</androidx.constraintlayout.widget.ConstraintLayout>

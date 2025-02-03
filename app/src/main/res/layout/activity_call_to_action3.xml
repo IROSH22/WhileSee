@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".call_to_action3"
+    android:background="@drawable/call_sub">
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="216dp"
+        android:layout_height="66dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Reducing Waste at the Source"
+        android:textColor="#020202"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.096" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="366dp"
+        android:layout_height="379dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="What it Means:
+This involves minimizing the amount of waste that reaches the ocean by addressing pollution at its source—on land. This includes reducing single-use plastics, improving waste management systems, and raising awareness about responsible consumption.
+
+Why It Matters:
+
+Prevents pollution from reaching waterways and eventually the ocean.
+Reduces the amount of new trash entering the marine ecosystem.
+Encourages sustainable habits among individuals and industries.
+Example Actions:
+
+Implementing bans on single-use plastics.
+Promoting recycling and upcycling programs.
+Educating communities about sustainable waste disposal practices.
+"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+</androidx.constraintlayout.widget.ConstraintLayout>

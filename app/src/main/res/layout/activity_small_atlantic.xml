@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".small_atlantic"
+    android:background="@drawable/seco_2">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="351dp"
+        android:layout_height="69dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Small Atlantic Island Makes Big Strides in Ocean Conservation"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="316dp"
+        android:layout_height="352dp"
+        android:fontFamily="sans-serif-black"
+        android:text="The UK overseas territory, Tristan da Cunha, has established a new marine protected area which will be the fourth largest sanctuary of its kind in the world. It’s one of the most remote inhabited islands on Earth, but the community of 250 people has made a significant contribution to marine wildlife conservation by banning bottom-trawling fishing, deep-sea mining and other harmful activities from its water."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
+
+    <Button
+        android:id="@+id/button36"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="142dp"
+        android:layout_height="41dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="serif"
+        android:text="Back"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+</androidx.constraintlayout.widget.ConstraintLayout>

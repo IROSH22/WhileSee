@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Super_year"
+    android:background="@drawable/seco_2">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="316dp"
+        android:layout_height="51dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Super Year for the Ocean, take two"
+        android:textColor="#FAF7F7"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="320dp"
+        android:layout_height="472dp"
+        android:fontFamily="sans-serif-black"
+        android:text="2020 had been billed as the “super year for the ocean” however that, like most other things, got put on hold. For example there were plans to draft a post-2020 biodiversity framework to create international agreements to protect biodiversity on the high seas. However, this was put on hold until this year, which also begins the U.N. Decade of Ocean Science, which presents an opportunity to strengthen global ocean management with scientific knowledge."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="161dp"
+        android:layout_height="55dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.989" />
+</androidx.constraintlayout.widget.ConstraintLayout>
