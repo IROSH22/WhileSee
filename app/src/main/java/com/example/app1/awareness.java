@@ -21,6 +21,7 @@ public class awareness extends AppCompatActivity {
     private Button fore;
     private Button five;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -92,6 +93,9 @@ public class awareness extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+
 
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "953340926873",
+    "project_id": "while-sea",
+    "storage_bucket": "while-sea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953340926873:android:620268d5eae1f95ee71108",
+        "android_client_info": {
+          "package_name": "com.example.app1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzKHd0cVgA4jPTTiQ7OuthTIaHRF4W7-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
