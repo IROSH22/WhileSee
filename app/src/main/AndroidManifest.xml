@@ -18,121 +18,55 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App1"
         tools:targetApi="31">
-        <activity
-            android:name=".awareness"
-            android:exported="false" />
-        <activity
-            android:name=".prifile_page"
-            android:exported="false" />
-        <activity
-            android:name=".Chat"
-            android:exported="false" />
-        <activity
-            android:name=".map"
-            android:exported="false" />
-        <activity
-            android:name=".sing_up"
-            android:exported="false" />
-        <activity
-            android:name=".login"
-            android:exported="false" />
-        <activity
-            android:name=".login_main"
-            android:exported="false" />
-        <activity
-            android:name=".call_to_action3"
-            android:exported="false" />
-        <activity
-            android:name=".call_to_action2"
-            android:exported="false" />
-        <activity
-            android:name=".call_to_action_1"
-            android:exported="false" />
-        <activity
-            android:name=".call_to_actions_main"
-            android:exported="false" />
-        <activity
-            android:name=".sustainable_practices_3"
-            android:exported="false" />
-        <activity
-            android:name=".sustainable_practices_2"
-            android:exported="false" />
-        <activity
-            android:name=".sustainable_practices_1"
-            android:exported="false" />
-        <activity
-            android:name=".sustainable_practices_main"
-            android:exported="false" />
-        <activity
-            android:name=".Super_year"
-            android:exported="false" />
-        <activity
-            android:name=".Countries_launch"
-            android:exported="false" />
-        <activity
-            android:name=".bowhead_whales"
-            android:exported="false" />
-        <activity
-            android:name=".small_atlantic"
-            android:exported="false" />
-        <activity
-            android:name=".properties"
-            android:exported="false" />
-        <activity
-            android:name=".jobs"
-            android:exported="false" />
-        <activity
-            android:name=".holidays"
-            android:exported="false" />
-        <activity
-            android:name=".many_creatures"
-            android:exported="false" />
-        <activity
-            android:name=".source_of_food"
-            android:exported="false" />
-        <activity
-            android:name=".Earth_climate"
-            android:exported="false" />
-        <activity
-            android:name=".the_ocean_produces"
-            android:exported="false" />
-        <activity
-            android:name=".role_of_ocean"
-            android:exported="false" />
-        <activity
-            android:name=".marine_conservation"
-            android:exported="false" />
-        <activity
-            android:name=".plastic_debris"
-            android:exported="false" />
-        <activity
-            android:name=".Entanglement_in_fishing"
-            android:exported="false" />
-        <activity
-            android:name=".climate_change"
-            android:exported="false" />
-        <activity
-            android:name=".vessel_strikes"
-            android:exported="false" />
-        <activity
-            android:name=".ocean_noise"
-            android:exported="false" />
-        <activity
-            android:name=".threats"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+
+        <activity android:name=".awareness" android:exported="false" />
+        <activity android:name=".prifile_page" android:exported="false" />
+        <activity android:name=".Chat" android:exported="false" />
+        <activity android:name=".map" android:exported="false" />
+        <activity android:name=".sing_up" android:exported="false" />
+        <activity android:name=".login" android:exported="false" />
+
+        <!-- Corrected login_main activity -->
+        <activity android:name=".login_main" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
+        <activity android:name=".call_to_action3" android:exported="false" />
+        <activity android:name=".call_to_action2" android:exported="false" />
+        <activity android:name=".call_to_action_1" android:exported="false" />
+        <activity android:name=".call_to_actions_main" android:exported="false" />
+        <activity android:name=".sustainable_practices_3" android:exported="false" />
+        <activity android:name=".sustainable_practices_2" android:exported="false" />
+        <activity android:name=".sustainable_practices_1" android:exported="false" />
+        <activity android:name=".sustainable_practices_main" android:exported="false" />
+        <activity android:name=".Super_year" android:exported="false" />
+        <activity android:name=".Countries_launch" android:exported="false" />
+        <activity android:name=".bowhead_whales" android:exported="false" />
+        <activity android:name=".small_atlantic" android:exported="false" />
+        <activity android:name=".properties" android:exported="false" />
+        <activity android:name=".jobs" android:exported="false" />
+        <activity android:name=".holidays" android:exported="false" />
+        <activity android:name=".many_creatures" android:exported="false" />
+        <activity android:name=".source_of_food" android:exported="false" />
+        <activity android:name=".Earth_climate" android:exported="false" />
+        <activity android:name=".the_ocean_produces" android:exported="false" />
+        <activity android:name=".role_of_ocean" android:exported="false" />
+        <activity android:name=".marine_conservation" android:exported="false" />
+        <activity android:name=".plastic_debris" android:exported="false" />
+        <activity android:name=".Entanglement_in_fishing" android:exported="false" />
+        <activity android:name=".climate_change" android:exported="false" />
+        <activity android:name=".vessel_strikes" android:exported="false" />
+        <activity android:name=".ocean_noise" android:exported="false" />
+        <activity android:name=".threats" android:exported="false" />
+        <activity android:name=".MainActivity" android:exported="false" />
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyC3Z3iwV94gZ_82VIRDDefwbYR_McFsa-Y" />
+
     </application>
 
 </manifest>
