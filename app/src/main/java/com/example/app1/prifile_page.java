@@ -8,11 +8,25 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+<<<<<<< Updated upstream
+=======
+import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
+>>>>>>> Stashed changes
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class prifile_page extends AppCompatActivity {
 
+<<<<<<< Updated upstream
+=======
+    private ImageView profileImage;
+    private TextView userName;
+    private TextView userEmail;
+
+>>>>>>> Stashed changes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +34,22 @@ public class prifile_page extends AppCompatActivity {
         setContentView(R.layout.activity_prifile_page);
 
 
+<<<<<<< Updated upstream
+=======
+        // Initialize views
+        profileImage = findViewById(R.id.profileImage);
+        userName = findViewById(R.id.userName);
+        userEmail = findViewById(R.id.userEmail);
+
+        // Set profile data (this can come from Firebase or local storage)
+        profileImage.setImageResource(R.drawable.profile_pic); // Example image
+        userName.setText("John Doe");
+        userEmail.setText("john.doe@example.com");
+
+
+
+
+>>>>>>> Stashed changes
         // Initialize BottomNavigationView
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
         bottomNavigationView.setSelectedItemId(R.id.bottom_profile);

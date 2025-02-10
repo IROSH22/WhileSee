@@ -21,6 +21,11 @@ public class role_of_ocean extends AppCompatActivity {
     private Button jobs;
     private Button pro;
 
+<<<<<<< Updated upstream
+=======
+    private Button backbtn;
+
+>>>>>>> Stashed changes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,6 +95,15 @@ public class role_of_ocean extends AppCompatActivity {
             }
         });
 
+<<<<<<< Updated upstream
+=======
+        backbtn = findViewById(R.id.button61);
+        backbtn.setOnClickListener(V -> {
+            Intent intent = new Intent(role_of_ocean.this, awareness.class);
+            startActivity(intent);
+        });
+
+>>>>>>> Stashed changes
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
